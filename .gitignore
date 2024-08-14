@@ -1,0 +1,25 @@
+# Expo specific files
+.expo/
+.expo-shared/
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Environment variable files
+.env
+
+# Build outputs
+build/
+dist/
+
+# MacOS specific files
+.DS_Store
+
+# Android Studio files
+.idea/
+
+# Visual Studio Code files
+.vscode/

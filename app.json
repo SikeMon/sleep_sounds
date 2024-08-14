@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Sleep Sounds",
+    "slug": "relaxation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#142130"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sleepsounds.relaxtion"
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#142130"
+      },
+      "package": "com.sleepsounds.relaxtion"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-1121513561066662~4683336371"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2c92ee99-4879-4f90-8d36-e6e5c9d7c479"
+      }
+    }
+  }
+}
