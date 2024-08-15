@@ -1,4 +1,4 @@
-package com.sleepsounds.relaxtion
+package com.sleepsounds.relax
 
 import android.app.Application
 import android.content.res.Configuration
