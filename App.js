@@ -1,9 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity, ImageBackground, Dimensions, AppState } from 'react-native';
 import * as React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import { Audio } from 'expo-av';
 import { AntDesign } from '@expo/vector-icons';
-import { BannerAd, BannerAdSize, AppOpenAd, AdEventType } from 'react-native-google-mobile-ads';
+import { BannerAd, BannerAdSize, AppOpenAd } from 'react-native-google-mobile-ads';
 
 
 

@@ -1,30 +1,24 @@
 {
   "build": {
-    "preview": {
+    "emulator": {
       "android": {
         "buildType": "apk"
       }
     },
-    "preview2": {
+    "emulator2": {
       "android": {
         "gradleCommand": ":app:assembleRelease"
       }
     },
-    "preview3": {
+    "development": {
       "developmentClient": true
     },
-    "preview4": {
+    "internal": {
       "distribution": "internal"
     },
     "production": {
       "android": {
-        "buildType": "aab",
-        "versionCode": 1,
-        "versionName": "1.0.0"
-      },
-      "ios": {
-        "buildType": "release",
-        "distribution": "store"
+        "buildType": "app-bundle"
       }
     }
   }
